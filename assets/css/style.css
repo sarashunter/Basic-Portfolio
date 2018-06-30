@@ -113,3 +113,22 @@ footer{
     width: 100%;
     
 }
+.portfolioimage{
+    position:relative;
+    width:300px;
+    display: inline-block;
+    margin:20px;
+    /* text-align: center; */
+}
+.portfolioimagetext{
+    position: absolute;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 80%;
+    left: 50%;
+    width:100%;
+    background-color:#4aaaa5;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
